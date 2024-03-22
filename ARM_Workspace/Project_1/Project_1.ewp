@@ -1876,6 +1876,30 @@
       <data/>
     </settings>
   </configuration>
+  <group>
+    <name>Includes</name>
+    <file>
+      <name>$PROJ_DIR$\Includes\Std_Types.h</name>
+    </file>
+  </group>
+  <group>
+    <name>MCAL</name>
+    <group>
+      <name>GPIO</name>
+      <file>
+        <name>$PROJ_DIR$\MCAL\GPIO\GPIO_Config.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\MCAL\GPIO\GPIO_Interface.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\MCAL\GPIO\GPIO_Private.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\MCAL\GPIO\GPIO_Prog.c</name>
+      </file>
+    </group>
+  </group>
   <file>
     <name>$PROJ_DIR$\main.c</name>
   </file>
