@@ -36,11 +36,11 @@ void M_GPIO_Void_Init(GPIO_ConfigType* Config_Ptr)
 
         break;
         case PORTF_ID :
-        (*((u32 *)(SYSCTL_BASE | RCGCGPIO_MASK))) |= (1<<(Config_Ptr->Port_Num)) ;
+        (*((u32 *)(SYSCTL_BASE | RCGCGPIO_MASK)))       |= (1<<(Config_Ptr->Port_Num)) ;
 
-        (*((u32 *)(GPIO_PORTF_BASE | GPIO_DEN_MASK))) |= (1<<(Config_Ptr->Pin_Num)) ;
-        (*((u32 *)(GPIO_PORTF_BASE | GPIO_DIR_MASK))) |= (1<<(Config_Ptr->Pin_Num)) ;
-        (*((u32 *)(GPIO_PORTF_BASE | GPIO_DATA_MASK))) |= (1<<(Config_Ptr->Pin_Num)) ;
+        (*((u32 *)(GPIO_PORTF_BASE | GPIO_DEN_MASK)))   |= (1<<(Config_Ptr->Pin_Num)) ;
+        (*((u32 *)(GPIO_PORTF_BASE | GPIO_DIR_MASK)))   |= (1<<(Config_Ptr->Pin_Num)) ;
+        (*((u32 *)(GPIO_PORTF_BASE | GPIO_DATA_MASK)))  |= (1<<(Config_Ptr->Pin_Num)) ;
 
         break;
     }
