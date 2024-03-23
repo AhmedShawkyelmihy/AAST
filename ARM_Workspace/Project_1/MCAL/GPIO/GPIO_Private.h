@@ -19,7 +19,7 @@
  * 			       Definitions				    *
  ****************************************************************************/
 #define SYSCTL_BASE             0x400FE000
-#define RCGCGPIO_MASK           0x608
+#define RCGCGPIO_OFFSET         0x608
 
 #define GPIO_PORTA_BASE         0x40004000
 #define GPIO_PORTB_BASE         0x40005000
@@ -30,11 +30,11 @@
 
 
 
-#define GPIO_DATA_MASK          0x3FC
-#define GPIO_DIR_MASK           0x400
-#define GPIO_AFSEL_MASK         0x420
-#define GPIO_DEN_MASK           0x51C
-#define GPIO_AMSEL_MASK         0x528
-#define GPIO_PUR_MASK           0x510
+#define GPIO_DATA_OFFSET        0x3FC
+#define GPIO_DIR_OFFSET         0x400
+#define GPIO_AFSEL_OFFSET       0x420
+#define GPIO_DEN_OFFSET         0x51C
+#define GPIO_AMSEL_OFFSET       0x528
+#define GPIO_PUR_OFFSET         0x510
 
 #endif /* GPIO_PRIVATE_H_ */

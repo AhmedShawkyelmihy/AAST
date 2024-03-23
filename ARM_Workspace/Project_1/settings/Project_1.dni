@@ -11,7 +11,7 @@ ByteLimit=50
 [LMIFTDIDriver]
 LMI_ResetMode=0x00000001
 [DebugChecksum]
-Checksum=283157506
+Checksum=-912047899
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
