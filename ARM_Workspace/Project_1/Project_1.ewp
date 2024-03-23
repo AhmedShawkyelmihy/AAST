@@ -1879,6 +1879,9 @@
   <group>
     <name>Includes</name>
     <file>
+      <name>$PROJ_DIR$\Includes\Common_Macros.h</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\Includes\Std_Types.h</name>
     </file>
   </group>

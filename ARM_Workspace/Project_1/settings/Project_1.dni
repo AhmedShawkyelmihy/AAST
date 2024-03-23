@@ -11,7 +11,7 @@ ByteLimit=50
 [LMIFTDIDriver]
 LMI_ResetMode=0x00000001
 [DebugChecksum]
-Checksum=113834454
+Checksum=283157506
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -50,6 +50,10 @@ ShowSource=1
 [Simulator]
 Freq=10000000
 MultiCoreRunAll=1
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Count=0
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -57,16 +61,12 @@ Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
+[Aliases]
+Count=0
+SuppressDialog=0
 [DriverProfiling]
 Enabled=0
 Mode=0
 Graph=0
 Symbiont=0
 Exclusions=
-[Disassemble mode]
-mode=0
-[Breakpoints]
-Count=0
-[Aliases]
-Count=0
-SuppressDialog=0
